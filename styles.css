@@ -1,0 +1,49 @@
+/* <div id="bob" class="button-style nav-button"></div> */
+
+.wrapper {
+    color: red;
+}
+
+.button-style {
+    border: 5px solid rgb(204, 170, 170);
+    padding: 10px;
+    width: min-content;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    color: green ;
+}
+
+.nav-button {
+    border-radius: 20px;
+}
+
+#bob {
+    color: blue;
+}
+
+.one {
+    border: 5px solid rgb(161, 61, 61);
+}
+
+p {
+    color: green;
+}
+
+.footer-style p {
+    font-size: .75px;
+}
+
+.two {
+    border: 5px solid rgb(61, 161, 61);
+}
+
+.two:hover {
+    background-color: rgb(61, 149, 161);
+}
+
+.one, .two {
+    padding: 10px;
+}
