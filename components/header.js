@@ -6,5 +6,6 @@ class Header extends HTMLElement {
         // Always call super first in constructor
         super();
         // write element functionality in here
+        const shadowRoot = this.attachShadow({ mode: 'open' });
     }
 }
